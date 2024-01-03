@@ -26,17 +26,6 @@ public class Deck {
     }
 
     public static void print(Card card) {
-//        String type = "";
-//        if (card.type.equals(Type.CLOVER.name())) type = "♣";
-//        if (card.type.equals(Type.HEART.name())) type = "♥";
-//        if (card.type.equals(Type.DIA.name())) type = "◆";
-//        if (card.type.equals(Type.SPADE.name())) type = "♠";
-//
-//        String num = String.valueOf(card.num);
-//        if (card.num == 11) num = "J";
-//        if (card.num == 12) num = "Q";
-//        if (card.num == 13) num = "K";
-//        if (card.num == 14) num = "A"; //에이스가 가장 높은 족보
         System.out.println(card);
 
     }
